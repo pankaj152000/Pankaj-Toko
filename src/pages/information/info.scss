@@ -1,0 +1,39 @@
+.headi {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 4em;
+  color: purple;
+  text-decoration: solid;
+}
+.blogContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.blog {
+  align-items: center;
+  max-width: 300px;
+  max-height: 400px;
+
+  .imag {
+    margin: auto;
+    align-items: center;
+    align-content: center;
+
+    .imagu {
+      max-height: 250px;
+      max-width: 250px;
+      padding: auto;
+    }
+  }
+}
+
+.textu {
+  max-width: 250px;
+  min-height: 300px;
+  text-align: center;
+  margin: auto;
+}

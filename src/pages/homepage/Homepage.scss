@@ -1,0 +1,48 @@
+.web{
+  min-width: 800px;
+}
+
+.Homepage-container {
+  min-width: 800px;
+  min-height: 800px;
+}
+
+.Content-container {
+  text-align: center;
+  margin-top: 120px;
+  padding: none;
+
+  .Content {
+    color: white;
+    font-size: 2em;
+    max-height: 60px;
+    text-shadow: 
+		-0.0075em 0.0075em 0 mix(#fff, #cd10f3, 94%),
+		0.005em 0.005em 0 mix(#fff,  #cd10f3, 60%),
+		0.01em 0.01em 0 mix(#fff, #cd10f3, 62%), 
+		0.015em 0.015em mix(#fff, #cd10f3, 64%), 
+		0.02em 0.02em 0 mix(#fff,  #cd10f3, 66%), 
+		0.025em 0.025em 0 mix(#fff, #cd10f3, 68%),
+		0.03em 0.03em 0 mix(#fff,  #cd10f3, 70%),
+		0.035em 0.035em 0 mix(#fff,  #cd10f3, 72%);
+  }
+  .Inner-content {
+    color: white;
+    font-size: 1.5em;
+  }
+}
+
+.button {
+  font-size: 2em;
+  border-radius: 27px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-width: 2px;
+
+  &:hover{
+    direction: ltr;
+    width: 20%;
+    
+  }
+}
